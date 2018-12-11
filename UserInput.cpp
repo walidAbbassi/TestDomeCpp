@@ -22,7 +22,7 @@ private:
 public:
 	virtual void add(char c)
 	{
-		value = value + c;
+		value += c;
 	}
 
 	std::string getValue() 
